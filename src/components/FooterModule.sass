@@ -1,0 +1,86 @@
+@use '../styles/variables'
+
+
+footer
+    padding-top: 50px
+
+.infoColumn
+    display: flex
+    gap: 50px
+
+    .column
+        font-size: 18px
+        color: variables.$c-txt
+        width: 300px
+
+        p.title
+            margin-bottom: 15px
+
+        ul li 
+            margin: 5px 0px
+            cursor: pointer
+
+            &:hover
+                color: variables.$yellow
+                transition: .2s
+
+
+.infoColumnResponsive
+    display: flex
+    flex-direction: column
+    gap: 10px
+
+    .lineDctFooter
+        margin: 0px
+
+    button
+        display: flex
+        padding: 10px
+        border: none
+        background-color: variables.$s-c-black
+        color: variables.$c-white
+        font-family: variables.$font-inter-medium
+        font-size: 20px
+
+    .containerInfo
+        padding-left: 10px
+        color: variables.$c-txt
+        
+        
+        ul li
+            margin: 10px 0px
+            cursor: pointer
+            
+            &:hover
+                color: variables.$yellow
+                transition: .2s
+
+.lineDctFooter
+    width: 100%
+    height: 2px
+    background-color: variables.$stroke
+    margin: 30px 0px
+
+.info
+    display: flex
+    justify-content: space-between
+    margin-bottom: 30px
+
+    .fDiv
+        display: flex
+        gap: 30px
+
+        p
+            cursor: pointer
+            
+            &:hover
+                color: variables.$yellow
+                transition: .2s
+
+@media (min-width: 940px)
+    .infoColumnResponsive
+        display: none
+
+@media (max-width: 940px)
+    .column
+        display: none

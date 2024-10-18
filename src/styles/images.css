@@ -1,0 +1,48 @@
+.mequimil{
+    background: url(../img/Mequi-1000.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bigmac{
+    background: url(../img/big-mac.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tasty{
+    background: url(../img/tasty.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.brabos{
+    background: url(../img/novos-brabos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.kopenhagen{
+    background: url(../img/mc-flurry-kopenhagen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.diamante{
+    background: url(../img/mc-flurry-diamante-negro.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.welcome{
+    background: url(../img/welcome-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}

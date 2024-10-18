@@ -1,0 +1,46 @@
+@use '../styles/variables'
+
+.cardArticle
+    width: 100%
+    display: flex
+    gap: 50px
+    margin-bottom: 100px
+
+    .photoSize
+        width: 50%
+        max-height: 500px
+        border-radius: 15px
+
+        img
+            border-radius: 15px
+
+    .txtSize
+        width: 50%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+        span
+            color: variables.$c-red
+
+        .btnYellow
+            margin-top: 20px
+
+@media (max-width: 1200px)
+    .cardArticle
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+        .photoSize
+            width: 100%
+            height: 400px
+
+        .txtSize
+            width: 100%
+
+        img
+            width: 400px
+
+        .btnYellow
+            margin-top: 30px

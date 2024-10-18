@@ -1,0 +1,87 @@
+@use 'variables'
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: variables.$font-inter-medium
+
+::-webkit-scrollbar
+    width: 5px
+    background-color: variables.$p-c-black
+
+::-webkit-scrollbar-thumb
+    width: 5px
+    background-color: variables.$yellow
+    border-radius: 10px
+
+.marginAuto
+    max-width: 1600px
+    margin: 0 auto
+
+ul
+    list-style: none
+
+body
+    background-color: variables.$s-c-black
+    margin-top: 100px
+
+.containerLineDct
+    display: flex
+    justify-content: space-between
+    align-items: center
+    gap: 30px
+    margin-top: 120px
+
+    .lineDct
+        width: 100%
+        background-color: variables.$yellow
+        height: 6px
+
+.btnYellow
+    background-color: variables.$yellow
+    border: none
+    border-radius: 15px
+    padding: 10px 15px
+    color: variables.$p-c-black
+    font-size: 18px
+    cursor: pointer
+    display: flex
+    align-items: center
+    gap: 10px
+
+    &:hover
+        opacity: 0.9
+        transition: .2s
+
+.title
+    color: variables.$c-white
+    font-family: variables.$font-inter-bold
+    font-size: 28px
+
+.txt
+    color: variables.$c-txt
+    font-size: 18px
+    margin-top: 10px
+    line-height: 26px
+
+.btnWhite
+    background-color: variables.$c-white
+    border: none
+    border-radius: 15px
+    padding: 10px 15px
+    color: variables.$p-c-black
+    font-size: 18px
+    cursor: pointer
+
+    &:hover
+        opacity: 0.8
+        transition: .2s
+
+
+
+@media (max-width: 1650px)
+    .marginAuto
+        padding: 0px 50px
+
+
