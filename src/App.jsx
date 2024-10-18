@@ -22,7 +22,7 @@ function App() {
         <img src={WelcomeBanner} alt="" width='100%' />
         <div className='infoWelcome'>
           <p className='title'> Pega essa dica: </p>
-          <p className='txt'> Peça seu Méqui pelo McDelivery ou Peça e Retire.</p>
+          <p className='txt'> Peça seu Méqui pelo McDelivery <br /> ou Peça e Retire.</p>
           <button className='btnWhite'> Clique Aqui! </button>
         </div>
       </motion.section>

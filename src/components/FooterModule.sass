@@ -1,6 +1,5 @@
 @use '../styles/variables'
 
-
 footer
     padding-top: 50px
 
@@ -17,13 +16,14 @@ footer
             margin-bottom: 15px
 
         ul li 
-            margin: 5px 0px
+            margin: 10px 0px
             cursor: pointer
+            font-size: 14px
+            line-height: 26px
 
             &:hover
                 color: variables.$yellow
                 transition: .2s
-
 
 .infoColumnResponsive
     display: flex
@@ -45,15 +45,16 @@ footer
     .containerInfo
         padding-left: 10px
         color: variables.$c-txt
-        
-        
+
         ul li
-            margin: 10px 0px
-            cursor: pointer
-            
-            &:hover
-                color: variables.$yellow
-                transition: .2s
+        margin: 10px 0px
+        cursor: pointer
+        font-size: 15px
+        line-height: 26px
+
+        &:hover
+            color: variables.$yellow
+            transition: .2s
 
 .lineDctFooter
     width: 100%
@@ -72,7 +73,7 @@ footer
 
         p
             cursor: pointer
-            
+
             &:hover
                 color: variables.$yellow
                 transition: .2s
